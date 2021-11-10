@@ -1,0 +1,3 @@
+﻿c:\software\programacion\MSVStudio2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Practica1Fmod.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  Practica1Fmod.vcxproj -> U:\hlocal\SonidoCpp\bin\SonidoCppProj.exe
