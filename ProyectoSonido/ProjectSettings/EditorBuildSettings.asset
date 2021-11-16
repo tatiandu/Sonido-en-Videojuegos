@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/ProyectoFinal.unity
+    guid: aa799fb3c55e7bc408e0ca74d2fd4c87
+  m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 623e54d80ccd23d419b83ba35bf1a8fe, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: bf369198b6fe8544c8a6ac6d9bfed4ed, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1b3ef504741b97b409bec06232c9c222, type: 2}
