@@ -1,0 +1,11 @@
+-Fuente
+-Viento
+-Cascadas (varios según como sea la cascada)
+-Rocas: colision suelo
+-Rocas: colision agua
+-Tela(?
+-Sonido de luciernagas???????
+-Musica de fondo 2d
+-Hojas de arboles al viento
+-Quizá distintos sonidos ambiente según la zona
+-(Si no es demasiado) al pasar por arbustos
