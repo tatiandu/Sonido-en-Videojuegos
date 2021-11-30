@@ -1,11 +1,18 @@
+LOOPS:
 -Fuente
 -Viento
 -Cascadas (varios según como sea la cascada)
--Rocas: colision suelo
--Rocas: colision agua
+-Musica de fondo 2d
+-Quizá distintos sonidos ambiente según la zona
+
+
+LOOP???:
 -Tela(?
 -Sonido de luciernagas???????
--Musica de fondo 2d
 -Hojas de arboles al viento
--Quizá distintos sonidos ambiente según la zona
+
+
+SIN LOOP:
+-Rocas: colision suelo
+-Rocas: colision agua
 -(Si no es demasiado) al pasar por arbustos
