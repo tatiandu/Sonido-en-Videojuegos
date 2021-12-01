@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{4893d00e-83dc-4356-a31a-f8586d04fb3f}">
+		<property name="assetPath">
+			<value>Pajaro/mixkit-medium-size-bird-flutter-63.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.2609977324263038</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{aec799cd-01c9-414e-8946-55dc52080449}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{0c7bb3db-75da-436b-a03c-f3b94f16abca}">
+		<property name="assetPath">
+			<value>Viento/mixkit-wild-light-wind-1733.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>44.13848072562358</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{aec799cd-01c9-414e-8946-55dc52080449}</destination>
+		</relationship>
+	</object>
+</objects>

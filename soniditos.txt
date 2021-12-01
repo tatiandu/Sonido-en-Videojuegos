@@ -4,6 +4,7 @@ LOOPS:
 -Cascadas (varios según como sea la cascada)
 -Musica de fondo 2d
 -Quizá distintos sonidos ambiente según la zona
+-Pajaro volando
 
 
 LOOP???:
