@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{3a314499-fe7b-404e-84ad-dfc2b3140409}">
+		<property name="assetPath">
+			<value>Brillitos/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{75fa0f8e-b237-4433-864b-1b60f04d0072}</destination>
+		</relationship>
+	</object>
+</objects>

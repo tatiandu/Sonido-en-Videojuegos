@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a827bf39-3e5f-45cb-b49f-0a4859d8e71f}">
+		<property name="assetPath">
+			<value>Ambiente/mixkit-little-bird-calling-chirp-23.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0385714285714285</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{75fa0f8e-b237-4433-864b-1b60f04d0072}</destination>
+		</relationship>
+	</object>
+</objects>

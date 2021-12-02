@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{04aedfaf-448d-49f7-92d4-f98c40044574}">
+		<property name="assetPath">
+			<value>Tela/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{75fa0f8e-b237-4433-864b-1b60f04d0072}</destination>
+		</relationship>
+	</object>
+</objects>

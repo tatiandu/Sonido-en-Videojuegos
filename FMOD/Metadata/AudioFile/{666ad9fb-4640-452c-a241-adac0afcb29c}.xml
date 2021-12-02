@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{666ad9fb-4640-452c-a241-adac0afcb29c}">
+		<property name="assetPath">
+			<value>Viento/mixkit-wind-in-the-forest-loop-1233.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.528979591836734</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{75fa0f8e-b237-4433-864b-1b60f04d0072}</destination>
+		</relationship>
+	</object>
+</objects>
