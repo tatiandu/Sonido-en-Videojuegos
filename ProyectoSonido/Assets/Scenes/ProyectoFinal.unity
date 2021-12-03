@@ -4405,6 +4405,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215145001}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &221540793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: fe9035ad75caab744adbbed1f0ccf576, type: 3}
+  m_PrefabInstance: {fileID: 2069423839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &221540794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221540793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/WaterFall2
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: UnderWater
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &232051013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5822,6 +5852,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 121078, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
@@ -17346,6 +17384,49 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400094, guid: 8e549363af6df1843b9e17e472a37c24, type: 3}
   m_PrefabInstance: {fileID: 603106470}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &604340311 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: fe9035ad75caab744adbbed1f0ccf576, type: 3}
+  m_PrefabInstance: {fileID: 516186565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &604340317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604340311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Emitters:
+  - Target: {fileID: 1976812342}
+    Params:
+    - Name: UnderWater
+      Value: 1
+  TriggerEvent: 3
+--- !u!114 &604340318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604340311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Emitters:
+  - Target: {fileID: 1976812342}
+    Params:
+    - Name: UnderWater
+      Value: 0
+  TriggerEvent: 4
 --- !u!1001 &605270931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20398,6 +20479,49 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 428928, guid: 73ac470d3d909d645a6c89a4664b6849, type: 3}
   m_PrefabInstance: {fileID: 718460610}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &726598456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: fe9035ad75caab744adbbed1f0ccf576, type: 3}
+  m_PrefabInstance: {fileID: 2069423839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &726598462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726598456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Emitters:
+  - Target: {fileID: 221540794}
+    Params:
+    - Name: UnderWater
+      Value: 1
+  TriggerEvent: 3
+--- !u!114 &726598463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726598456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a208c85da6d04c861d81b992e4ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Emitters:
+  - Target: {fileID: 221540794}
+    Params:
+    - Name: UnderWater
+      Value: 0
+  TriggerEvent: 4
 --- !u!1 &737390399
 GameObject:
   m_ObjectHideFlags: 0
@@ -21371,6 +21495,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
   m_PrefabInstance: {fileID: 808989807}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &809229564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: fe9035ad75caab744adbbed1f0ccf576, type: 3}
+  m_PrefabInstance: {fileID: 1102026158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &809229565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809229564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/WaterFall1
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &810469643
 GameObject:
   m_ObjectHideFlags: 0
@@ -46441,6 +46593,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6786704563919474195, guid: ff0b0a3d7ae7a9e4f8505795785ad853, type: 3}
   m_PrefabInstance: {fileID: 1975623664}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1976812340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: fe9035ad75caab744adbbed1f0ccf576, type: 3}
+  m_PrefabInstance: {fileID: 516186565}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1976812342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976812340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/WaterFall1
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: UnderWater
+    Value: 0
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1977559921
 PrefabInstance:
   m_ObjectHideFlags: 0
