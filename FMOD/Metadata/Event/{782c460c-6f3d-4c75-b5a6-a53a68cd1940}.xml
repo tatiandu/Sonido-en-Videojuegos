@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{6c22ef9f-f830-4266-8acf-cc3354ece202}</destination>
+			<destination>{76945304-3d58-42c2-8c85-3e3b36b0760a}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{be245eb4-a2a4-4c5f-9aff-f1720d9c7d2f}</destination>
@@ -79,8 +79,7 @@
 			<destination>{09bf3657-584d-473a-8b38-43e68c312367}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{8f6dfad1-6a01-4d98-a48b-826b2111cb67}</destination>
-			<destination>{841cf9fa-36e2-40c5-939a-a7782fce6f50}</destination>
+			<destination>{d227e323-6c1a-4c91-be69-13be46235cda}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{06251d7a-aec6-4285-8fb5-760d2944505d}">
@@ -145,22 +144,11 @@
 			<destination>{ec1e56c3-f0dc-4da3-81a4-f98c4aa7705b}</destination>
 		</relationship>
 	</object>
-	<object class="NamedMarker" id="{8f6dfad1-6a01-4d98-a48b-826b2111cb67}">
+	<object class="LoopRegion" id="{d227e323-6c1a-4c91-be69-13be46235cda}">
 		<property name="position">
 			<value>0</value>
 		</property>
-		<property name="name">
-			<value>Marker A</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{ed55e665-729f-4da1-bba1-17310d6e01c5}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{96b414c9-1e8c-44dc-8b0c-58a7f3d8b328}</destination>
-		</relationship>
-	</object>
-	<object class="TransitionMarker" id="{841cf9fa-36e2-40c5-939a-a7782fce6f50}">
-		<property name="position">
+		<property name="length">
 			<value>8.5</value>
 		</property>
 		<relationship name="timeline">
@@ -168,9 +156,6 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{96b414c9-1e8c-44dc-8b0c-58a7f3d8b328}</destination>
-		</relationship>
-		<relationship name="destination">
-			<destination>{8f6dfad1-6a01-4d98-a48b-826b2111cb67}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{529bb174-68fa-4108-b94f-a512bd84e92a}">

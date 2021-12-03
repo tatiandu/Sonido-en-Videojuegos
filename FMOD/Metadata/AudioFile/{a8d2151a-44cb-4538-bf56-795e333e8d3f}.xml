@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{a8d2151a-44cb-4538-bf56-795e333e8d3f}">
+		<property name="assetPath">
+			<value>Cascadas-fuente/mixkit-water-flowing-in-the-river-2455.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>180.14700680272108</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{75fa0f8e-b237-4433-864b-1b60f04d0072}</destination>
+		</relationship>
+	</object>
+</objects>
