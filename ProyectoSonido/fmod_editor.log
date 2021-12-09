@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001965A8B2778 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001EBEF3D8D58 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,3 +18,76 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5918048
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 36960
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004D5C59F038
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFC378960E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFC378960B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFC378961B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFC37896270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001EBE3F16208
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='fall', format=5, channels=2, frequency=48000, lengthbytes=10272, lengthpcm=36654, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SoundI::release                          :  (000001EBD8E50BC8)
+[LOG] SoundI::release                          :     cloth_sounds - Trimmed (2) - Trimmed (000001EB3FB55F28)
+[LOG] SoundI::release                          :  (000001EBD8E55968)
+[LOG] SoundI::release                          :     mixkit-bee-buzz-1926 (000001EB3FB54528)
+[LOG] SoundI::release                          :  (000001EBD8E50608)
+[LOG] SoundI::release                          :     mixkit-bird-singing-and-flapping-wings-2432 (000001EB3FB54388)
+[LOG] SoundI::release                          :  (000001EBD8E54B08)
+[LOG] SoundI::release                          :     mixkit-forest-bird-singing-1211 (000001EB3FB57E08)
+[LOG] SoundI::release                          :  (000001EBD8E51E78)
+[LOG] SoundI::release                          :     mixkit-little-bird-calling-chirp-23 (000001EB3FB57FA8)
+[LOG] SoundI::release                          :  (000001EBD8E529F8)
+[LOG] SoundI::release                          :     mixkit-little-bird-creak-in-the-swamp-25 (000001EB3FB51948)
+[LOG] SoundI::release                          :  (000001EBD8E53298)
+[LOG] SoundI::release                          :     mixkit-small-birds-in-the-nest-29 (000001EB3FB546C8)
+[LOG] SoundI::release                          :  (000001EBD8E50EA8)
+[LOG] SoundI::release                          :     mixkit-wild-raven-bird-calling-62 (000001EB3FB51C88)
+[LOG] SoundI::release                          :  (000001EBD8E50D38)
+[LOG] SoundI::release                          :     mixkit-pigeon-coo-ambiance-sounds-74 (000001EB3FB55D88)
+[LOG] SoundI::release                          :  (000001EBD8E52FB8)
+[LOG] SoundI::release                          :     4EBAC2R-white-noise - Trimmed (000001EB3FB541E8)
+[LOG] SoundI::release                          : mixkit-forest-birds-chirp-ambiance-69 (000001EBE2766608)
+[LOG] SoundI::release                          :     mixkit-forest-birds-chirp-ambiance-69 (000001EB3FB51FC8)
+[LOG] SoundI::release                          :     mixkit-forest-birds-chirp-ambiance-69 (000001EBE2761358)
+[LOG] SoundI::release                          : mixkit-water-flowing-in-the-river-2455 (000001EBE27625E8)
+[LOG] SoundI::release                          :     mixkit-water-flowing-in-the-river-2455 (000001EB3FB54D48)
+[LOG] SoundI::release                          :     mixkit-water-flowing-in-the-river-2455 (000001EBE27676E8)
+[LOG] SoundI::release                          : lightbug (000001EBE2767388)
+[LOG] SoundI::release                          :     lightbug (000001EB3FB57448)
+[LOG] SoundI::release                          :     lightbug (000001EBE2760E48)
+[LOG] SoundI::release                          : mixkit-river-water-flowing-2454 (000001EBE27616B8)
+[LOG] SoundI::release                          :     mixkit-river-water-flowing-2454 (000001EB3FB57C68)
+[LOG] SoundI::release                          :     mixkit-river-water-flowing-2454 (000001EBE27620D8)
+[LOG] SoundI::release                          : mixkit-river-water-flowing-2454 (000001EBE2763368)
+[LOG] SoundI::release                          :     mixkit-river-water-flowing-2454 (000001EB3FB51AE8)
+[LOG] SoundI::release                          :     mixkit-river-water-flowing-2454 (000001EBE2767538)
+[LOG] SoundI::release                          :  (000001EBD8E54DE8)
+[LOG] SoundI::release                          :     mixkit-waterfall-ambience-2513 (000001EB3FB524A8)
+[LOG] SoundI::release                          :  (000001EBD8E53128)
+[LOG] SoundI::release                          :     mixkit-flowing-waterfall-on-forest-2516 (000001EB3FB54868)
+[LOG] SoundI::release                          :  (000001EBD8E508E8)
+[LOG] SoundI::release                          :     mixkit-small-bird-flutter-2694 (000001EB3FB54048)
+[LOG] SoundI::release                          :  (000001EBDABF4528)
+[LOG] SoundI::release                          :     fall (000001EB3FB55708)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
